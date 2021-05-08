@@ -1,0 +1,339 @@
+
+nav{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.wd{
+    background-image: url("../img/WD.png");
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    min-width: 100px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li a{
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+}
+li a:hover{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    color: black;
+
+}
+.diz_2{
+    margin: 40px 0 60px;
+    min-width: 300px;
+    font-size: 1.2em;
+}
+
+.btn-primary, .btn{
+    font-weight: 400;
+    font-size: 1.1em;
+    width:220px;
+    height: 60px;
+    background-color: #34547A;
+    border: none;
+    margin-top: 20px;
+    align-self: center;
+    
+
+}
+header{
+    padding-bottom: 50px;
+}
+pre::-webkit-scrollbar {width:0px;}
+.section{
+    width: 100%;
+}
+.face{
+  width: 555px;
+   height: 450px;
+ }
+ .row_1{
+     display: flex;
+     justify-content: center;
+ }
+.diz_1{
+    min-width: 270px;
+    background-image: url("../img/Frame.png");
+    min-height: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    background-position: center;
+}
+.row_2 div{
+     width: 40%;
+     text-align: center;
+}
+.about_me{
+    font-size: 1.1em;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.projects{
+    margin-bottom: 80px;
+}
+.progress{
+    height: 5px;
+    margin-bottom: 20px;
+}
+.my_skills{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.how_to{
+   padding-top: 70px;
+   text-align: center;
+}
+video{
+    margin-bottom: 50px;
+}
+.how_to_block{
+    font-size: 1.1em;
+    margin: 0 auto 0 auto;
+    margin-bottom: 50px;
+}
+.face{
+    background-image: url("../img/face.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.skills_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gallery{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pre_gallery{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.mark{
+    background-image: url("../img/Rectangle7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vh;
+    height: 35vh;
+
+}
+.pen{
+ 
+    background-image: url("../img/laptop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vh;
+    height: 35vh;
+}
+.empty{
+    height: 100px;
+}
+.microsoft{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.micro{
+    margin: 20px;
+}
+.microsoft div.flex{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+}
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.flex input{
+    margin: 15px;
+    border: none;
+}
+.flex input:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+.name input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.message{
+    display: block;
+    margin: auto;
+}
+.message textarea{
+    padding: 10px;
+    resize: none;
+    width: 630px;
+    height: 150px;
+    border: none;
+}
+textarea:focus{
+    outline: 0;
+    outline-offset:0;
+}
+.grey{
+    background-color: #EEEFF1;
+}
+.video div{
+    display: flex;
+    justify-content: center;
+}
+.video div video{
+    width: 70%;
+}
+.button{
+    padding: auto;
+    display: block;
+    padding: auto;
+    font-size: 1.3em;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+.button{
+    margin-top: 20px;
+    background-color: #34547A;
+    width: 190px;
+    height: 55px;
+}
+.button a{
+    display: block;
+    padding: 10px 0px 0px 5px;
+    color: white;
+    text-decoration: none;
+    text-align: none;;
+}
+.button a:hover{
+    color:white;
+}
+
+.vk{
+    margin-right: 10px;
+    background-image: url("../img/vk.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto 0 auto 0;
+    min-width: 50px;
+    height: 50px;
+}
+.blue{
+    background-color: #34547A;
+}
+.p_white{
+    color: white;
+}
+.project_img{
+    background-image: url("../img/project.png");
+    background-repeat: no-repeat;
+    background-size: 2;
+    background-position:left;
+}
+.proj{
+    align-items: center;
+    margin: 10px 0 0 10px;
+}
+.proj div{
+    padding-left: 40px;
+}
+.proj p{
+    line-height: 4px;
+    display: block;
+    margin: 30px;
+}
+.form_section{
+    text-align: center;
+    padding:50px 0 50px 0;
+}
+.want_block{
+    margin: auto;
+}
+
+.lent{
+    display: none;
+}
+@media (max-width:1000px) {
+    .nav li{
+        animation-name: delete;
+        animation-duration: 1s;
+        display: none;
+    }
+    .lent{
+        position: relative;
+        margin-top: -30px;
+        display: block;
+        animation: menu;
+        animation-duration: 1s;
+    }
+    @keyframes menu{
+        from{
+            opacity: 0;
+            left: 250px;
+        }
+        to{
+            opacity: 1;
+            left: 0;
+        }
+    }
+    @keyframes delete {
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            display: none;
+        }
+    }
+}
+@media (min-width:1000px) {
+    .nav li{
+        animation-name: menu;
+        animation-duration: 0.5s;
+        position: relative;
+    }
+    .lent{
+        display: none;
+    }
+    @keyframes menu{
+        from{
+            opacity: 0;
+            top: -50px;
+        }
+        to{
+            opacity: 1;
+            top: 0;
+        }
+    }
+    
+}
